@@ -35,10 +35,10 @@ REMEMBER TO CHANGE THE IP TO A MODBUS SERVER THAT HAVE RELEVANT DATA AVALIABLE
 - Setup the Modbus server, this setup is made for the adresses of the FC3: Holding register that fits a Universal Robot.
 - Have some fun with the data :)
 
-**Change the pull from holding register
+**Change the pull from holding register**
 ![FC3 holding register](https://github.com/glinvad/Node-Red-ModbusTCP-UR/blob/main/Pictures/SettingUpGetHOLDING.jpg)
 
-**Sending the data to OPC UA Server
+**Sending the data to OPC UA Server**
 In this flow, the data is comming from the Universal robot via Modbus TCP and are displayed on the Dashboard. But the data is also sent to another flow and are stored on a OPC UA server via Node-red. You can finde more on this on an upcomming github.
 ![Sending data to another flow](https://github.com/glinvad/Node-Red-ModbusTCP-UR/blob/main/Pictures/SendingDataToOPCUAflow.jpg)
 ![Sending data to another flow](https://github.com/glinvad/Node-Red-ModbusTCP-UR/blob/main/Pictures/SendingDataToOPCUAflow2.jpg)
