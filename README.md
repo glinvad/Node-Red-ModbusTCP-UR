@@ -18,6 +18,7 @@
 ![Flow overview](https://github.com/glinvad/Node-Red-ModbusTCP-UR/blob/main/Pictures/OverviewFlow.jpg)
 
 **How to setup**
+
 Modbus can be used for a wide variety of equitment.
 
 For simpel testing, I used URSim, an virtual mashine with the UR Polyscope software build in (It can be downloaded from Universal robots homepage) that runs a Modbus TCP Server.
@@ -39,6 +40,7 @@ REMEMBER TO CHANGE THE IP TO A MODBUS SERVER THAT HAVE RELEVANT DATA AVALIABLE
 ![FC3 holding register](https://github.com/glinvad/Node-Red-ModbusTCP-UR/blob/main/Pictures/SettingUpGetHOLDING.jpg)
 
 **Sending the data to OPC UA Server**
+
 In this flow, the data is comming from the Universal robot via Modbus TCP and are displayed on the Dashboard. But the data is also sent to another flow and are stored on a OPC UA server via Node-red. You can finde more on this on an upcomming github.
 ![Sending data to another flow](https://github.com/glinvad/Node-Red-ModbusTCP-UR/blob/main/Pictures/SendingDataToOPCUAflow.jpg)
 ![Sending data to another flow](https://github.com/glinvad/Node-Red-ModbusTCP-UR/blob/main/Pictures/SendingDataToOPCUAflow2.jpg)
